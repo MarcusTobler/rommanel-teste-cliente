@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "devpacks", "devpacks", "{F4E85A08-C7C7-4820-9BBE-E0059ED6BEA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{DE650D74-C5B4-4558-B77E-8954AC57FA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Cliente.WebAPI", "src\services\Rommanel.Cliente.WebAPI\Rommanel.Cliente.WebAPI.csproj", "{B516547F-60DE-4E9E-A9B3-80491760433A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA19B29E-4A61-4981-935B-9CF687C03975}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43E8153B-48DA-4673-887C-272258F06941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B516547F-60DE-4E9E-A9B3-80491760433A} = {DE650D74-C5B4-4558-B77E-8954AC57FA4F}
+		{F4E85A08-C7C7-4820-9BBE-E0059ED6BEA2} = {43E8153B-48DA-4673-887C-272258F06941}
+		{DE650D74-C5B4-4558-B77E-8954AC57FA4F} = {43E8153B-48DA-4673-887C-272258F06941}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B516547F-60DE-4E9E-A9B3-80491760433A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B516547F-60DE-4E9E-A9B3-80491760433A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B516547F-60DE-4E9E-A9B3-80491760433A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B516547F-60DE-4E9E-A9B3-80491760433A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
